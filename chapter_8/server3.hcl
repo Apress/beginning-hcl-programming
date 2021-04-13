@@ -1,0 +1,13 @@
+server = true
+node_name = "server1"
+datacentre = "hcldc"
+data_dir = "/tmp/consul"
+bind_addr = "0.0.0.0"
+client_addr = "0.0.0.0"
+advertise_addr = "10.1.142.103"
+bootstrap_expect = 3
+retry_join = ["10.1.142.101", "10.1.142.102", "10.1.142.103"]
+ui = true
+log_level = "DEBUG"
+enable_syslog = true
+acl_enforce_version_8 = false

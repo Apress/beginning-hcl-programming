@@ -1,0 +1,10 @@
+server = false
+datacenter = "hcldc"
+node_name = "client1"
+data_dir = "/tmp/consul"
+bind_addr = "10.1.142.201"
+client_addr ="127.0.0.1"
+retry_join = ["10.1.142.101", "10.1.142.102", "10.1.142.103"]
+log_level = "DEBUG"
+enable_syslog =true
+acl_enforce_version_8 = false
